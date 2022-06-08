@@ -1,0 +1,81 @@
+.test
+  .ant-steps-item-process
+  > .ant-steps-item-container
+  > .ant-steps-item-content
+  > .ant-steps-item-title {
+  font-size: 24px;
+  line-height: 20px !important;
+}
+.test .ant-steps-item-finish .ant-steps-item-icon > .ant-steps-icon {
+  color: #ee851d;
+}
+.test
+  .ant-steps-item-finish
+  > .ant-steps-item-container
+  > .ant-steps-item-content
+  > .ant-steps-item-title::after {
+  background-color: #ee851d;
+}
+.test .ant-steps-item-finish .ant-steps-item-icon {
+  background-color: #fff;
+  border-color: #ee851d;
+  line-height: 29px !important;
+}
+.anticon {
+  vertical-align: 0 !important;
+}
+.test
+  .ant-steps-item-process
+  > .ant-steps-item-container
+  > .ant-steps-item-icon {
+  background-color: #ee851d;
+  border: none;
+}
+.steps-content {
+  padding-top: 10px !important;
+  padding-bottom: 10px !important;
+}
+.ant-steps-item-icon {
+  background-color: #fff;
+  border-color: #ee851d;
+  line-height: 29px !important;
+}
+.edit-prev:hover {
+  color: #ee851d !important;
+  border-color: #ee851d !important;
+}
+.edit-btn {
+  background-color: #ee851d !important;
+  color: white !important;
+  border: none !important;
+}
+.edit-btn:focus {
+  outline: 1;
+}
+.edit-btn:hover {
+  background-color: #ee851d !important;
+}
+.edit-iconss {
+  background-color: #ee851d;
+}
+.ant-steps {
+  margin: 10px 0;
+}
+.steps-content {
+  min-height: 200px;
+  margin-top: 20px;
+  padding-top: 80px;
+  text-align: center;
+  background-color: #fafafa;
+  border: 1px dashed #e9e9e9;
+  border-radius: 2px;
+}
+
+.steps-action {
+  margin-top: 24px;
+}
+.edit-img {
+  width: 50%;
+  height: 400px;
+  margin-bottom: 20px;
+}

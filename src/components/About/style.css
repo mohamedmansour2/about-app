@@ -1,0 +1,44 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Cairo";
+}
+/* Start CSS First Div */
+.edit-about-img img {
+  width: 210px;
+  border: 2px solid rgb(9, 136, 179);
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+.edit-img-info {
+  text-align: center;
+}
+.edit-img-info h2 {
+  font-weight: bold;
+  padding-top: 10px;
+}
+
+.edit-img-icon a {
+  font-size: 25px;
+}
+.edit-img-icon {
+  padding: 10px 10px;
+}
+.b-line {
+  margin-top: 10px;
+}
+/* End CSS First Div */
+
+/* Start CSS Second Div */
+.edit-about-title p:last-child {
+  padding-top: 35px;
+}
+
+.edit-about-title p {
+  line-height: 2px;
+}
+/* End CSS Second Div */

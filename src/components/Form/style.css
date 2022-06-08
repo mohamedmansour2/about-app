@@ -1,0 +1,28 @@
+input[type="text"],
+select {
+  width: 55%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.edit-btn-form {
+  width: 55%;
+  background-color: #ee851d;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.edit-btn-form:hover {
+  background-color: #eb9d4f;
+}
+.edit-error {
+  display: flex;
+  justify-content: center;
+}
